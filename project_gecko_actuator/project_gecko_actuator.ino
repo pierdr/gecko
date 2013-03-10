@@ -1,5 +1,7 @@
 /********************
- * ACTUATOR
+ * Made by Pierluigi Dalla Rosa, Sara Salsinha 
+ 
+ ACTUATOR
  *******************/
 
 
@@ -27,9 +29,10 @@ void setup() {
 void loop() {
   if (Serial.available() > 0) {
 
-    // read the oldest byte in the serial buffer:
+    
     int incomingByte = Serial.read();
-    // if it's a capital H (ASCII 72), turn on the LED:
+
+
     if(locked)
     {
       switch(incomingByte)

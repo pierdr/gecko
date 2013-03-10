@@ -1,9 +1,11 @@
-#include <Servo.h>
+
 
 /********************
- * SENSORS
+ * Made by Pierluigi Dalla Rosa, Sara Salsinha
+
+ SENSORS
  *******************/
- 
+ #include <Servo.h>
  
 Servo gecko;
 const int sensors[9]={
